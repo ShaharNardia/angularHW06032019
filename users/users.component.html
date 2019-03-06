@@ -1,0 +1,4 @@
+<div *ngFor='let user of users'>
+  {{user.name}}
+  <app-child [userId]='user.id'></app-child>
+</div>
