@@ -8,7 +8,7 @@ import { ServiceService } from '../service.service';
 })
 export class ChildComponent implements OnInit {
 
-  user: {email:''};
+  user: any = {};
   constructor(private usersrv: ServiceService) { }
 
   @Input()
